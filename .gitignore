@@ -26,5 +26,6 @@ vendor
 *.log
 
 _build
+build
 coverage.txt
 release
