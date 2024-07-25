@@ -8,7 +8,7 @@ servicecomb:
     rest-admin:
       listenAddress: 127.0.0.1:30102 # listen addr use to adminAPI
   registry:
-    address: http://127.0.0.1:30100 # uri of service center
+    address: http://10.245.70.242:30100 # uri of service center
     #address: https://cse.cn-north-1.myhuaweicloud.com:443 # uri of service center
     scope: full #set full to be able to discover other app's service
     watch: false # set if you want to watch instance change event
